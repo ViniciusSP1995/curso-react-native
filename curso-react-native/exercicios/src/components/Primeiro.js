@@ -1,5 +1,6 @@
 import React from 'react'
 
-import { Text, View } from 'react-native'
+import { Text } from 'react-native'
+import Estilo from './estilo'
 
-export default () => <View><Text>Primeiro!</Text></View>
+export default () => <Text style={Estilo.txtG}>Primeiro!</Text>
